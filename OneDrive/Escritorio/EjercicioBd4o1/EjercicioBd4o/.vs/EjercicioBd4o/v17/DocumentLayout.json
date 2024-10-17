@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86D80660-1336-4495-89D1-E898BA47A9DC}|EjercicioBd4o\\EjercicioBd4o.csproj|c:\\users\\josem\\onedrive\\escritorio\\ejerciciobd4o1\\ejerciciobd4o\\ejerciciobd4o\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86D80660-1336-4495-89D1-E898BA47A9DC}|EjercicioBd4o\\EjercicioBd4o.csproj|solutionrelative:ejerciciobd4o\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D80660-1336-4495-89D1-E898BA47A9DC}|EjercicioBd4o\\EjercicioBd4o.csproj|C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\ejerciciobd4o\\fensterdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{86D80660-1336-4495-89D1-E898BA47A9DC}|EjercicioBd4o\\EjercicioBd4o.csproj|solutionrelative:ejerciciobd4o\\fensterdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\EjercicioBd4o\\Form1.cs",
+              "RelativeDocumentMoniker": "EjercicioBd4o\\Form1.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\EjercicioBd4o\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EjercicioBd4o\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:29:09.491Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FensterDataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\EjercicioBd4o\\FensterDataSet1.xsd",
+              "RelativeDocumentMoniker": "EjercicioBd4o\\FensterDataSet1.xsd",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\EjercicioBd4o1\\EjercicioBd4o\\EjercicioBd4o\\FensterDataSet1.xsd",
+              "RelativeToolTip": "EjercicioBd4o\\FensterDataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-17T05:43:52.836Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

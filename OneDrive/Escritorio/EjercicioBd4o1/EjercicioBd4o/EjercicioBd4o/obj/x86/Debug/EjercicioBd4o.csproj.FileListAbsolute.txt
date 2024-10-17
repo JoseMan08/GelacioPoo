@@ -1,0 +1,47 @@
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.pdb
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form1.resources
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Properties.Resources.resources
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb
+c:\users\angel\documents\visual studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\bin\Debug\Db4objects.Db4o.xml
+C:\Users\Angel\Documents\Visual Studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form2.resources
+C:\Users\Angel\Documents\Visual Studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2010\Projects\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.GenerateResource.Cache
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.pdb
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\Db4objects.Db4o.xml
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csprojResolveAssemblyReference.cache
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form1.resources
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form2.resources
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Properties.Resources.resources
+C:\Users\ggerm\OneDrive\ITH\2022-2\Topicos de Base de Datos\Material\Unidad II\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.GenerateResource.Cache
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.AssemblyReference.cache
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form1.resources
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form2.resources
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Properties.Resources.resources
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.GenerateResource.cache
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.CoreCompileInputs.cache
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe.config
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.pdb
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\bin\Debug\Db4objects.Db4o.xml
+C:\Users\kaysi\Downloads\EjercicioBd4o\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.CopyComplete
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.AssemblyReference.cache
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form1.resources
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form2.resources
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Properties.Resources.resources
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.GenerateResource.cache
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.CoreCompileInputs.cache
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe.config
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.pdb
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\Db4objects.Db4o.xml
+C:\Users\josem\OneDrive\Escritorio\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\Ejercici.EF5E7E82.Up2Date
