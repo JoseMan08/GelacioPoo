@@ -209,11 +209,12 @@ namespace EjercicioBd4o
                     if (dataGridView1.Columns.Count == 0)
                     {
                         dataGridView1.Columns.Add("Id_C", "ID");
+                        dataGridView1.Columns.Add("RFC", "RFC");
                         dataGridView1.Columns.Add("Nombre", "Nombre");
                         dataGridView1.Columns.Add("Apellidos", "Apellidos");
-                        dataGridView1.Columns.Add("Correo", "Correo");
                         dataGridView1.Columns.Add("Direccion", "Dirección");
                         dataGridView1.Columns.Add("Telefono", "Teléfono");
+                        
                     }
 
                     // Agregar los registros al DataGridView
@@ -271,7 +272,8 @@ namespace EjercicioBd4o
 
         private void btnagregarD_Click(object sender, EventArgs e)
         {
-            if (txtId_E.Text != string.Empty && txtPuesto.Text != string.Empty)
+            if (txtId_E.Text != string.Empty && txtPuesto.Text != string.Empty && txtNombreE.Text != string.Empty
+                && txtApellidosE.Text != string.Empty && txtDireccionE.Text != string.Empty && txtTelefonoE.Text != string.Empty)
             {
                 IObjectContainer BD = Db4oFactory.OpenFile("SuperBD.yap");
 
@@ -279,6 +281,10 @@ namespace EjercicioBd4o
 
                 mo.Id_E = txtId_E.Text;
                 mo.Puesto = txtPuesto.Text;
+                mo.Nombre = txtNombreE.Text;
+                mo.Apellidos = txtApellidosE.Text;
+                mo.Direccion = txtDireccionE.Text;
+                mo.Telefono = txtTelefonoE.Text;
 
                 try
                 {
@@ -292,6 +298,10 @@ namespace EjercicioBd4o
                 MessageBox.Show("EXITO!!! Se Guardo");
                 txtId_E.Clear();
                 txtPuesto.Clear();
+                txtNombreE.Clear();
+                txtApellidosE.Clear();
+                txtDireccionE.Clear();
+                txtTelefonoE.Clear();
 
 
             }
@@ -314,6 +324,11 @@ namespace EjercicioBd4o
                     {
                         txtId_E.Text = a.Id_E;
                         txtPuesto.Text = a.Puesto;
+                        txtNombreE.Text = a.Nombre;
+                        txtApellidosE.Text = a.Apellidos;
+                        txtDireccionE.Text = a.Direccion;
+                        txtTelefonoE.Text = a.Telefono;
+                        
                         btnGuardarD.Visible = true;
                         btncanceld.Visible = true;
                     }
@@ -339,17 +354,29 @@ namespace EjercicioBd4o
                 Empleado vie = (Empleado)result.Next();
                 vie.Id_E = txtId_E.Text;
                 vie.Puesto = txtPuesto.Text;
+                vie.Nombre = txtNombreE.Text;
+                vie.Apellidos = txtApellidosE.Text;
+                vie.Direccion = txtDireccionE.Text;
+                vie.Telefono = txtTelefonoE.Text;
                 BD.Store(vie);
                 BD.Commit();
                 MessageBox.Show("Exito!!! Se Modifico");
                 txtId_E.Clear();
                 txtPuesto.Clear();
+                txtNombreE.Clear();
+                txtApellidosE.Clear();
+                txtDireccionE.Clear();
+                txtTelefonoE.Clear();
             }
             else
                 MessageBox.Show("Error!!!  No se Modifico");
             BD.Close();
             txtId_E.Clear();
             txtPuesto.Clear();
+            txtNombreE .Clear();
+            txtApellidosE .Clear();
+            txtDireccionE .Clear();
+            txtTelefonoE .Clear();
             btnGuardarD.Visible = false;
         }
 
@@ -403,12 +430,17 @@ namespace EjercicioBd4o
                     {
                         dataGridView2.Columns.Add("Id_E", "ID");
                         dataGridView2.Columns.Add("Puesto", "Puesto");
+                        dataGridView2.Columns.Add("Nombre", "Nombre");
+                        dataGridView2.Columns.Add("Apellidos", "Apellidos");
+                        dataGridView2.Columns.Add("Direccion", "Direccion");
+                        dataGridView2.Columns.Add("Telefono", "Telefono");
+
                     }
 
                     // Agregar los registros al DataGridView
                     foreach (var cita in consulta)
                     {
-                        dataGridView2.Rows.Add(cita.Id_E, cita.Puesto);
+                        dataGridView2.Rows.Add(cita.Id_E, cita.Puesto, cita.Nombre, cita.Apellidos, cita.Direccion, cita.Telefono);
                     }
                 }
                 else
@@ -441,7 +473,9 @@ namespace EjercicioBd4o
 
                     foreach (Empleado al in resultados)
                     {
-                        MessageBox.Show("Id_E " + al.Id_E + "\n" + "Puesto " + al.Puesto + "\n");
+                        MessageBox.Show("Id_E " + al.Id_E + "\n" + "Puesto " + al.Puesto + "\n"
+                            + "Nombre " + al.Nombre + "\n" + "Apellidos " + al.Apellidos + "\n"
+                            + "Direccion " + al.Direccion + "\n" + "Telefono " + al.Telefono + "\n");
                     }
 
                 }
@@ -472,17 +506,20 @@ namespace EjercicioBd4o
             btnGuardarD.Visible = false;
             txtId_E1.Clear();
             txtPuesto.Clear();
+            txtNombreE.Clear();
+            txtApellidosE.Clear();
+            txtDireccionE.Clear();
+            txtTelefonoE.Clear();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'fensterDataSet1.Cliente' Puede moverla o quitarla según sea necesario.
-            this.clienteTableAdapter.Fill(this.fensterDataSet1.Cliente);
+            this.clienteTableAdapter.Fill(this.farmaciaDataSet.Cliente);
             // TODO: esta línea de código carga datos en la tabla 'fensterDataSet1.Cita' Puede moverla o quitarla según sea necesario.
-            this.citaTableAdapter.Fill(this.fensterDataSet1.Cita);
+            this.empleadoTableAdapter.Fill(this.farmaciaDataSet.Empleado);
 
         }
-
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
@@ -575,6 +612,11 @@ namespace EjercicioBd4o
         }
 
         private void fensterDataSet1BindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTelefonoE_TextChanged(object sender, EventArgs e)
         {
 
         }

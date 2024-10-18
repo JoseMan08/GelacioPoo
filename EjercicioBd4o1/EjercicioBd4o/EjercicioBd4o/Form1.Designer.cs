@@ -70,12 +70,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTelefonoE = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDireccionE = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtApellidosE = new System.Windows.Forms.TextBox();
+            this.txtNombreE = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.btncanceld = new System.Windows.Forms.Button();
@@ -84,10 +84,6 @@
             this.txtId_E1 = new System.Windows.Forms.TextBox();
             this.btnConsultaD = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.No_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label15 = new System.Windows.Forms.Label();
             this.btnGuardarD = new System.Windows.Forms.Button();
             this.btnModificarD = new System.Windows.Forms.Button();
@@ -98,13 +94,20 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.peliculaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.citaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.farmaciaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.farmaciaDataSet = new EjercicioBd4o.FarmaciaDataSet();
             this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.citaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.fensterDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.fensterDataSet1 = new EjercicioBd4o.FensterDataSet1();
-            this.citaTableAdapter = new EjercicioBd4o.FensterDataSet1TableAdapters.CitaTableAdapter();
-            this.clienteTableAdapter = new EjercicioBd4o.FensterDataSet1TableAdapters.ClienteTableAdapter();
+            this.empleadoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoTableAdapter = new EjercicioBd4o.FarmaciaDataSetTableAdapters.EmpleadoTableAdapter();
+            this.clienteTableAdapter = new EjercicioBd4o.FarmaciaDataSetTableAdapters.ClienteTableAdapter();
+            this.RFC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.No_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -112,11 +115,11 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.peliculaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.citaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.farmaciaDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.farmaciaDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.citaBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fensterDataSet1BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fensterDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -127,10 +130,10 @@
             this.toolStripDropDownButton2,
             this.toolStripDropDownButton1,
             this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 36);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(800, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 34);
             this.toolStrip1.TabIndex = 15;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -141,7 +144,7 @@
             this.salirToolStripMenuItem});
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
-            this.toolStripDropDownButton2.Size = new System.Drawing.Size(90, 33);
+            this.toolStripDropDownButton2.Size = new System.Drawing.Size(90, 29);
             this.toolStripDropDownButton2.Text = "Archivo";
             // 
             // salirToolStripMenuItem
@@ -159,22 +162,22 @@
             this.toolStripMenuItem2});
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(78, 33);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(78, 29);
             this.toolStripDropDownButton1.Text = "Tablas";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShowShortcutKeys = false;
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(155, 34);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(194, 34);
             this.toolStripMenuItem1.Text = "Cliente";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(155, 34);
-            this.toolStripMenuItem2.Text = "Cita";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(194, 34);
+            this.toolStripMenuItem2.Text = "Empleado";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripButton1
@@ -183,7 +186,7 @@
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 29);
             this.toolStripButton1.Text = "Ayuda";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -193,8 +196,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(800, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -417,7 +419,8 @@
             this.Column2,
             this.Column3,
             this.Column4,
-            this.Column8});
+            this.Column8,
+            this.RFC});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.Location = new System.Drawing.Point(8, 234);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -568,12 +571,12 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.LightSalmon;
-            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.txtTelefonoE);
             this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.txtDireccionE);
             this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.textBox4);
+            this.tabPage2.Controls.Add(this.txtApellidosE);
+            this.tabPage2.Controls.Add(this.txtNombreE);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.label18);
             this.tabPage2.Controls.Add(this.btncanceld);
@@ -599,13 +602,14 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Empleado";
             // 
-            // textBox1
+            // txtTelefonoE
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, 205);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 26);
-            this.textBox1.TabIndex = 43;
+            this.txtTelefonoE.Location = new System.Drawing.Point(105, 205);
+            this.txtTelefonoE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTelefonoE.Name = "txtTelefonoE";
+            this.txtTelefonoE.Size = new System.Drawing.Size(148, 26);
+            this.txtTelefonoE.TabIndex = 43;
+            this.txtTelefonoE.TextChanged += new System.EventHandler(this.txtTelefonoE_TextChanged);
             // 
             // label8
             // 
@@ -618,13 +622,13 @@
             this.label8.TabIndex = 42;
             this.label8.Text = "Telefono";
             // 
-            // textBox2
+            // txtDireccionE
             // 
-            this.textBox2.Location = new System.Drawing.Point(105, 169);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 26);
-            this.textBox2.TabIndex = 41;
+            this.txtDireccionE.Location = new System.Drawing.Point(105, 169);
+            this.txtDireccionE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDireccionE.Name = "txtDireccionE";
+            this.txtDireccionE.Size = new System.Drawing.Size(148, 26);
+            this.txtDireccionE.TabIndex = 41;
             // 
             // label10
             // 
@@ -637,21 +641,21 @@
             this.label10.TabIndex = 40;
             this.label10.Text = "Direccion";
             // 
-            // textBox3
+            // txtApellidosE
             // 
-            this.textBox3.Location = new System.Drawing.Point(105, 135);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 26);
-            this.textBox3.TabIndex = 39;
+            this.txtApellidosE.Location = new System.Drawing.Point(105, 135);
+            this.txtApellidosE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtApellidosE.Name = "txtApellidosE";
+            this.txtApellidosE.Size = new System.Drawing.Size(148, 26);
+            this.txtApellidosE.TabIndex = 39;
             // 
-            // textBox4
+            // txtNombreE
             // 
-            this.textBox4.Location = new System.Drawing.Point(105, 100);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 26);
-            this.textBox4.TabIndex = 38;
+            this.txtNombreE.Location = new System.Drawing.Point(105, 100);
+            this.txtNombreE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNombreE.Name = "txtNombreE";
+            this.txtNombreE.Size = new System.Drawing.Size(148, 26);
+            this.txtNombreE.TabIndex = 38;
             // 
             // label17
             // 
@@ -742,41 +746,15 @@
             this.Column5,
             this.Column6,
             this.Column7,
-            this.No_Orden});
+            this.No_Orden,
+            this.Direccion,
+            this.Telefono});
             this.dataGridView2.Location = new System.Drawing.Point(16, 245);
             this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.Size = new System.Drawing.Size(670, 194);
             this.dataGridView2.TabIndex = 26;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Id_Ct";
-            this.Column5.MinimumWidth = 8;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 150;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Fecha";
-            this.Column6.MinimumWidth = 8;
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 150;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Hora";
-            this.Column7.MinimumWidth = 8;
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 150;
-            // 
-            // No_Orden
-            // 
-            this.No_Orden.HeaderText = "No_Orden";
-            this.No_Orden.MinimumWidth = 8;
-            this.No_Orden.Name = "No_Orden";
-            this.No_Orden.Width = 150;
             // 
             // label15
             // 
@@ -884,38 +862,87 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Id_E";
             // 
-            // citaBindingSource
+            // empleadoBindingSource
             // 
-            this.citaBindingSource.DataMember = "Cita";
-            this.citaBindingSource.DataSource = this.fensterDataSet1BindingSource;
+            this.empleadoBindingSource.DataMember = "Empleado";
+            this.empleadoBindingSource.DataSource = this.farmaciaDataSetBindingSource;
+            // 
+            // farmaciaDataSetBindingSource
+            // 
+            this.farmaciaDataSetBindingSource.DataSource = this.farmaciaDataSet;
+            this.farmaciaDataSetBindingSource.Position = 0;
+            // 
+            // farmaciaDataSet
+            // 
+            this.farmaciaDataSet.DataSetName = "FensterDataSet1";
+            this.farmaciaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // clienteBindingSource
             // 
             this.clienteBindingSource.DataMember = "Cliente";
-            this.clienteBindingSource.DataSource = this.fensterDataSet1BindingSource;
+            this.clienteBindingSource.DataSource = this.farmaciaDataSetBindingSource;
             // 
-            // citaBindingSource1
+            // empleadoBindingSource1
             // 
-            this.citaBindingSource1.DataMember = "Cita";
-            this.citaBindingSource1.DataSource = this.fensterDataSet1BindingSource;
+            this.empleadoBindingSource1.DataMember = "Empleado";
+            this.empleadoBindingSource1.DataSource = this.farmaciaDataSetBindingSource;
             // 
-            // fensterDataSet1BindingSource
+            // empleadoTableAdapter
             // 
-            this.fensterDataSet1BindingSource.DataSource = this.fensterDataSet1;
-            this.fensterDataSet1BindingSource.Position = 0;
-            // 
-            // fensterDataSet1
-            // 
-            this.fensterDataSet1.DataSetName = "FensterDataSet1";
-            this.fensterDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // citaTableAdapter
-            // 
-            this.citaTableAdapter.ClearBeforeFill = true;
+            this.empleadoTableAdapter.ClearBeforeFill = true;
             // 
             // clienteTableAdapter
             // 
             this.clienteTableAdapter.ClearBeforeFill = true;
+            // 
+            // RFC
+            // 
+            this.RFC.HeaderText = "RFC";
+            this.RFC.MinimumWidth = 8;
+            this.RFC.Name = "RFC";
+            this.RFC.Width = 150;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Id_E";
+            this.Column5.MinimumWidth = 8;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 150;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Puesto";
+            this.Column6.MinimumWidth = 8;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 150;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Nombre";
+            this.Column7.MinimumWidth = 8;
+            this.Column7.Name = "Column7";
+            this.Column7.Width = 150;
+            // 
+            // No_Orden
+            // 
+            this.No_Orden.HeaderText = "Apellidos";
+            this.No_Orden.MinimumWidth = 8;
+            this.No_Orden.Name = "No_Orden";
+            this.No_Orden.Width = 150;
+            // 
+            // Direccion
+            // 
+            this.Direccion.HeaderText = "Direccion";
+            this.Direccion.MinimumWidth = 8;
+            this.Direccion.Name = "Direccion";
+            this.Direccion.Width = 150;
+            // 
+            // Telefono
+            // 
+            this.Telefono.HeaderText = "Telefono";
+            this.Telefono.MinimumWidth = 8;
+            this.Telefono.Name = "Telefono";
+            this.Telefono.Width = 150;
             // 
             // Form1
             // 
@@ -946,11 +973,11 @@
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.peliculaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.citaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.farmaciaDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.farmaciaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.citaBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fensterDataSet1BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fensterDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1007,26 +1034,22 @@
         private System.Windows.Forms.Button btncanceld;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDireccion;
-        private System.Windows.Forms.BindingSource fensterDataSet1BindingSource;
-        private FensterDataSet1 fensterDataSet1;
+        private System.Windows.Forms.BindingSource farmaciaDataSetBindingSource;
+        private FarmaciaDataSet farmaciaDataSet;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn No_Orden;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.BindingSource citaBindingSource;
-        private FensterDataSet1TableAdapters.CitaTableAdapter citaTableAdapter;
+        private System.Windows.Forms.BindingSource empleadoBindingSource;
+        private FarmaciaDataSetTableAdapters.EmpleadoTableAdapter empleadoTableAdapter;
         private System.Windows.Forms.BindingSource clienteBindingSource;
-        private FensterDataSet1TableAdapters.ClienteTableAdapter clienteTableAdapter;
-        private System.Windows.Forms.BindingSource citaBindingSource1;
-        private System.Windows.Forms.TextBox textBox1;
+        private FarmaciaDataSetTableAdapters.ClienteTableAdapter clienteTableAdapter;
+        private System.Windows.Forms.BindingSource empleadoBindingSource1;
+        private System.Windows.Forms.TextBox txtTelefonoE;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDireccionE;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtApellidosE;
+        private System.Windows.Forms.TextBox txtNombreE;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -1034,6 +1057,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RFC;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn No_Orden;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
     }
 }
 

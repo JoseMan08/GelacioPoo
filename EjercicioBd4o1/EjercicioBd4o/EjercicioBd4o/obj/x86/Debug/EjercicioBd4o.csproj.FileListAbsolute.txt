@@ -58,3 +58,16 @@ C:\Users\josem\Desktop\Proyecto\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x
 C:\Users\josem\Desktop\Proyecto\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\Ejercici.EF5E7E82.Up2Date
 C:\Users\josem\Desktop\Proyecto\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
 C:\Users\josem\Desktop\Proyecto\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe.config
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.exe
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\EjercicioBd4o.pdb
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\bin\Debug\Db4objects.Db4o.xml
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.AssemblyReference.cache
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form1.resources
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Form2.resources
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.Properties.Resources.resources
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.GenerateResource.cache
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.csproj.CoreCompileInputs.cache
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\Ejercici.EF5E7E82.Up2Date
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.exe
+C:\Users\josem\Desktop\Prueba1\GelacioPoo\EjercicioBd4o1\EjercicioBd4o\EjercicioBd4o\obj\x86\Debug\EjercicioBd4o.pdb

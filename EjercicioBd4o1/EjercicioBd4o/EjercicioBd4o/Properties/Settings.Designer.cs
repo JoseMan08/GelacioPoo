@@ -12,7 +12,7 @@ namespace EjercicioBd4o.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.5.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.11.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,10 +26,22 @@ namespace EjercicioBd4o.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MW14Q1C;Initial Catalog=Fenster;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VIRIDIANAYAXENI\\SQLEXPRESS;Initial Catalog=Fenster;Integrated Securit" +
+            "y=True")]
         public string FensterConnectionString {
             get {
                 return ((string)(this["FensterConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VIRIDIANAYAXENI\\SQLEXPRESS;Initial Catalog=Farmacia;Integrated Securi" +
+            "ty=True;Encrypt=False")]
+        public string FarmaciaConnectionString {
+            get {
+                return ((string)(this["FarmaciaConnectionString"]));
             }
         }
     }
